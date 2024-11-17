@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="qcm.js"></script>
+    <title>QCM de Gaby</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <!---<p id="author">By MK <3</p>---->
+            <p>QCM de Gaby</p>
+        </div>
+        <div class="config">
+            <label for="number_of_questions_input">Nombre de questions</label>
+            <input type="number" id="number_of_questions_input">
+            <button id="generate_checkboxes_btn" onclick="generateCheckboxes()">OK</button>
+        </div>
+        <div class="document-name">
+
+        </div>
+        <div class="export_btn">
+            <button id="export_word_btn" class="button-2">Export Word</button>
+            <button id="export_pdf_btn" class="button-2">Export PDF</button>
+        </div>
+        <div class="checkboxes">
+            <div id="questionsDiv">
+                <!---------fill with JS  ----------->
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
